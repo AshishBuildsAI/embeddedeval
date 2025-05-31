@@ -35,7 +35,7 @@ void getMemoryUsage() {
         return;
     }
 
-    long memTotal = 0, memFree = 0, buffers = 0, cached = 0;
+    long memTotal = 0, memFree = 0;
     char label[64];
     while (fscanf(fp, "%s %ld kB\n", label, &memTotal) != EOF) {
         if (strcmp(label, "MemTotal:") == 0)

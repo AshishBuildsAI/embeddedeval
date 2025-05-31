@@ -2,9 +2,9 @@
 
 CC = gcc
 CFLAGS = -Wall -O2
-SRC = src/main.c
-OBJ = src/main.o
-TARGET = src/main
+SRC = src/c/main.c
+OBJ = src/c/main.o
+TARGET = src/c/main
 
 all: $(TARGET)
 
