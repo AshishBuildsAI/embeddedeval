@@ -1,0 +1,5 @@
+src/main
+*.exe
+*.out
+*[!.]*     # advanced, ignore files with no extension
+.vscode
